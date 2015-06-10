@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">RAF 7th FTS Original Paint</name>
+     <texture-fuselage>Liveries/original/original-fuselage1.png</texture-fuselage>
+     <texture-nose>Liveries/default/prop1.png</texture-nose>
+	 <texture-misc>Liveries/default/misc1.png</texture-misc>
+     <texture-wings>Liveries/original/original-wings1.png</texture-wings>
+	 <texture-tail>Liveries/original/original-htail1.png</texture-tail>
+
+   <specular>
+              <red>   0.3 </red>
+              <green> 0.3 </green>
+              <blue>  0.3 </blue>
+            </specular>
+
+            <emission>
+              <red>   0.2 </red>
+              <green> 0.2 </green>
+              <blue>  0.2 </blue>
+            </emission>
+
+      </livery>
+    </model>
+  </sim>
+
+</PropertyList>

@@ -36,71 +36,24 @@
           <output>systems/armament/station3/released</output>
      </switch>
 
-     <!-- release station 4 -->
-     <switch name="systems/armament/station4/released">
-          <default value="systems/armament/station4/released"/>
-          <test logic="AND" value="1">
-                systems/armament/release == 1
-                systems/armament/station4/selected == 1
-          </test>
-          <output>systems/armament/station4/released</output>
-     </switch>
-
-     <!-- release station 5 -->
-     <switch name="systems/armament/station5/released">
-          <default value="systems/armament/station5/released"/>
-          <test logic="AND" value="1">
-                systems/armament/release == 1
-                systems/armament/station5/selected == 1
-          </test>
-          <output>systems/armament/station5/released</output>
-     </switch>
-
   </channel>
 
   <channel name="Bombs">
 
-   <kinematic name="Bomb 1 timer">
-     <input>systems/armament/station2/released</input>
-     <traverse>
-       <setting>
-          <position> 0 </position>
-          <time>     0 </time>
-       </setting>
-       <setting>
-          <position> 1 </position>
-          <time>     0.01 </time>
-       </setting>
-     </traverse>
-     <output>systems/armament/bomb1/released-cmd</output>
-   </kinematic>
    <!-- release bomb 1 -->
      <switch name="systems/armament/bomb1/released">
           <default value="0"/>
           <test value="1">
-                systems/armament/bomb1/released-cmd == 1
+                systems/armament/station2/released == 1
           </test>
      </switch>
 
-   <kinematic name="Bomb 2 timer">
-     <input>systems/armament/station4/released</input>
-     <traverse>
-       <setting>
-          <position> 0 </position>
-          <time>     0 </time>
-       </setting>
-       <setting>
-          <position> 1 </position>
-          <time>     0.01 </time>
-       </setting>
-     </traverse>
-     <output>systems/armament/bomb2/released-cmd</output>
-   </kinematic>
+
    <!-- release bomb 2 -->
      <switch name="systems/armament/bomb2/released">
           <default value="0"/>
           <test value="1">
-                systems/armament/bomb2/released-cmd == 1
+                systems/armament/station2/released == 1
           </test>
      </switch>
 
@@ -139,7 +92,7 @@
      <switch name="systems/armament/station4/weight-control">
           <default value="inertia/pointmass-weight-lbs[3]"/>
           <test value="0">
-                systems/armament/station4/released == 1
+                systems/armament/station2/released == 1
           </test>
           <output>inertia/pointmass-weight-lbs[3]</output>
      </switch>
@@ -148,7 +101,7 @@
      <switch name="systems/armament/station5/weight-control">
           <default value="inertia/pointmass-weight-lbs[4]"/>
           <test value="40">
-                systems/armament/station5/released == 1
+                systems/armament/station1/released == 1
           </test>
           <output>inertia/pointmass-weight-lbs[4]</output>
      </switch>

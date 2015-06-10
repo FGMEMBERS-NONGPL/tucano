@@ -1,9 +1,11 @@
+License:  Creative Commons "CC-BY-NC-SA"
+
 Adapted for use in the FlightGear flight simulator.  Original license information below.
 The original model was a Tucano, and I've made it into a Super Tucano of the Fuerza
 Aerea Colombiana (Colombian Air Force), 312th Combat Squadron, based at Barranquilla.
 
 David Culp, January 2009
-davidculp2@comcast.net
+davidculp@cox.net
 
 #########################################################################
 
@@ -20,8 +22,3 @@ All rights reserved - ALPHA SIMULATIONS 2004
 WWW.ALPHASIM.CO.UK
 
 phil1@alphasim.co.uk
-
-
-http://creativecommons.org/licenses/by-nc-sa/3.0/
-
-

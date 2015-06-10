@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">RAF "Spitano" WWII Paint/name>
+     <texture-fuselage>Liveries/spitano/spitano-fuselage1.png</texture-fuselage>
+     <texture-nose>Liveries/spitano/prop1.png</texture-nose>
+	 <texture-misc>Liveries/spitano/misc1.png</texture-misc>
+     <texture-wings>Liveries/spitano/spitano-wings1.png</texture-wings>
+	 <texture-tail>Liveries/spitano/spitano-htail1.png</texture-tail>
+
+   <specular>
+              <red>   0.3 </red>
+              <green> 0.3 </green>
+              <blue>  0.3 </blue>
+            </specular>
+
+            <emission>
+              <red>   0.2 </red>
+              <green> 0.2 </green>
+              <blue>  0.2 </blue>
+            </emission>
+
+      </livery>
+    </model>
+  </sim>
+
+</PropertyList>

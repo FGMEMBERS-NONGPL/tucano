@@ -2,16 +2,16 @@ AC3Db
 MATERIAL "ac3dmat0" rgb 0 0 0  amb 0 0 0  emis 0 0 0  spec 0 0 0  shi 10  trans 0
 MATERIAL "ac3dmat0" rgb 0 0 0  amb 0 0 0  emis 0 0 0  spec 0 0 0  shi 10  trans 0
 MATERIAL "ac3dmat0" rgb 0 0 0  amb 0 0 0  emis 0 0 0  spec 0 0 0  shi 10  trans 0
-MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.7 0.7 0.7  emis 0 0 0  spec 0 0 0  shi 10  trans 0
-MATERIAL "ac3dmat14" rgb 0.8 0.8 0.8  amb 0.6 0.6 0.6  emis 0 0 0  spec 0 0 0  shi 10  trans 0
-MATERIAL "ac3dmat14" rgb 0.8 0.8 0.8  amb 0.8 0.8 0.8  emis 0 0 0  spec 0 0 0  shi 76  trans 0.894
+MATERIAL "ac3dmat1" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 1 1 1  shi 10  trans 0
+MATERIAL "ac3dmat14" rgb 0.8 0.8 0.8  amb 0.8 0.8 0.8  emis 0 0 0  spec 1 1 1  shi 100  trans 0
+MATERIAL "ac3dmat14" rgb 0.8 0.8 0.8  amb 0.8 0.8 0.8  emis 0 0 0  spec 1 1 1  shi 100  trans 0.894
 MATERIAL "ac3dmatpipper" rgb 1 1 1  amb 1 1 1  emis 1 1 1  spec 0 0 0  shi 0  trans 0
 OBJECT world
 kids 8
 OBJECT poly
 name "switchbox"
 loc -0.00951816 0.0311756 -0.0431185
-texture "power.rgb"
+texture "power.png"
 crease 45.000000
 numvert 8
 -0.0133492 -0.0108626 -0.033677
@@ -940,7 +940,7 @@ kids 0
 OBJECT poly
 name "pipper"
 loc 0.0436872 0.0350607 -0.000753796
-texture "piper.rgb"
+texture "piper.png"
 crease 45.000000
 numvert 4
 0 0.100094 -0.0245586

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">Test</name>
+     <texture-fuselage>Liveries/test/fuselage1.png</texture-fuselage>
+     <texture-nose>Liveries/test/prop1.png</texture-nose>
+	 <texture-misc>Liveries/test/misc1.png</texture-misc>
+     <texture-wings>Liveries/test/wings1.png</texture-wings>
+	 <texture-tail>Liveries/test/htail1.png</texture-tail>
+   <specular>
+              <red>   0.3 </red>
+              <green> 0.3 </green>
+              <blue>  0.3 </blue>
+            </specular>
+
+            <emission>
+              <red>   0.2 </red>
+              <green> 0.2 </green>
+              <blue>  0.2 </blue>
+            </emission>
+
+      </livery>
+    </model>
+  </sim>
+
+</PropertyList>

@@ -7,7 +7,7 @@
     <engine>
       <name>engine running</name>
       <mode>looped</mode>
-      <path>Aircraft/Tucano-T-27/Sounds/turboprop1.wav</path>
+      <path>Aircraft/tucano/Sounds/tucano.wav</path>
       <condition>
        <or>
          <greater-than>
@@ -28,7 +28,7 @@
       <volume>
         <property>/engines/engine[0]/n2</property>
         <type>log</type>
-        <factor>0.02</factor>
+        <factor>0.22</factor>
 	<offset>0.2</offset>
       </volume>
         <pitch>
@@ -182,24 +182,16 @@
    <condition>
     <property>controls/armament/trigger</property>
    </condition>
-   <path>Aircraft/Tucano-T-27/Sounds/gunfire_1.wav</path>
+   <path>Aircraft/DavePack/Sounds/20mm-gun.wav</path>
   </guns>
 
-  <rocket-salvo-left>
+  <rocket-salvo>
      <name>firerockets-left</name>
      <condition>
-         <property>controls/armament/trigger1</property>
+         <property>fdm/jsbsim/systems/armament/station1/released</property>
      </condition>
-     <path>Aircraft/Tucano-T-27/Sounds/rockets_ripple.wav</path>
-  </rocket-salvo-left>
-
-  <rocket-salvo-right>
-     <name>firerockets-right</name>
-     <condition>
-         <property>controls/armament/trigger5</property>
-     </condition>
-     <path>Aircraft/Tucano-T-27/Sounds/rockets_ripple.wav</path>
-  </rocket-salvo-right>
+     <path>Aircraft/DavePack/Sounds/rockets_ripple.wav</path>
+  </rocket-salvo>
 
   <crash>
    <name>boing</name>
