@@ -1,0 +1,7 @@
+Obrigado por baixar um projeto de Marcos José!
+
+Instalação: Extraia para uma pasta qualquer o aquivo AFA-Tucano T-27 . Depois copie as pastas
+em formato RBG e cole na pasta C:\Arquivos de programas\FlightGear\data\Aircraft\Tucano-T-27\Models 
+e divirta-se!
+
+sempre que quiser trocar de textura, ttroque as texturas das pastas

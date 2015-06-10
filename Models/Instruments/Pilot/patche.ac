@@ -1,0 +1,23 @@
+AC3Db
+MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.2 0.2 0.2  shi 128  trans 0
+OBJECT world
+kids 1
+OBJECT poly
+name "rect"
+loc 5.34136e-005 0.000300908 8.15282e-005
+texture "patche.rgb"
+crease 45.000000
+numvert 4
+7.07805e-008 -0.0335089 0.0408368
+7.07805e-008 -0.0335089 -0.0408368
+-7.07805e-008 0.0335089 -0.0408368
+-7.07805e-008 0.0335089 0.0408368
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 1
+2 1 1
+1 1 0
+0 0 0
+kids 0

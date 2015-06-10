@@ -1,0 +1,1 @@
+Descompactem os arquivos rgb em um local qualquer, depois  subistitua os arquivos RGB na pasta models do tucano com o numero do seu aviao no esquadrao EDAV

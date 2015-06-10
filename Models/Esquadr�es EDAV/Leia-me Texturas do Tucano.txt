@@ -1,0 +1,9 @@
+Descompacte as pastas em qualquer lugar que desejar, depois subistitua os arquivos "fuselage.rgb" e "wings.rgb", ou se voce preferir, use as imagens "png", mas para que elas funcionem, sera necessario editar o arquivo 312-T-27 ac3d, que fica localizado dentro da pasta models, mas só faça se voce souber.
+o desenho é uma criaçao do Prestes hangar, com uma pequena modificaçao minha. 
+Nao delete os outros esquadroes que nao for o seu, no futuro, voce podera ver os outros numeros quando entrar no FG online
+Estamos trabalhando no aperfeiçoamento de Liveries no T-27.
+
+Fabrizio Fracaroli
+
+
+fabriziofracaroli@hotmail.com
